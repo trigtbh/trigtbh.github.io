@@ -130,9 +130,9 @@ h3 {
 }
 
 .rounddiv {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
 
     width: 250px;
     height: 50px;
