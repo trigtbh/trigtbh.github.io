@@ -1,0 +1,222 @@
+@font-face { font-family: 'TTNormsPro'; src: url('/fonts/TT Norms Pro Regular.otf'); } 
+
+body {
+    background: rgb(157,37,237);
+    background: linear-gradient(124deg, rgba(157,37,237,1) 0%, rgba(253,29,29,0.7654412106639531) 50%, rgba(252,197,69,1) 100%);
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.giantcontainer {
+    display: flex;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    width: 700px;
+    background-color: rgba(50, 50, 50, 1);
+    background: linear-gradient(124deg, rgba(24, 24, 24, 0.7654412106639531) 0%, rgba(12, 21, 12, 0.7654412106639531) 50%, rgba(0, 0, 0, 0.7654412106639531) 100%);
+    margin-top: 20px;
+    display: table;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, .7);
+}
+
+.theline { /* lol */
+    background-color: rgba(240, 240, 240, 0.3);
+    animation: makewide 1.5s ease-out;
+    animation-fill-mode: forwards;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 0px;
+    display: block;
+}
+
+@keyframes makewide {
+    from {
+        width: 0;
+    }
+    to {
+        width: 300;
+    }
+}
+
+@keyframes slowappear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 35px;
+    color: rgb(240, 240, 240);
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'TTNormsPro';
+}
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 5px solid rgba(240, 240, 240, 0.3);
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    
+}
+
+h1 {
+    font-family: 'TTNormsPro';
+    
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-bottom: -5px;
+
+    background: linear-gradient(124deg, rgba(157,37,237,1) 0%, rgba(253,29,29,0.7654412106639531) 50%, rgba(252,197,69,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+h3 {
+    font-family: 'TTNormsPro';
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: rgb(221, 67, 133);
+    text-shadow: 0px 0px 5px rgba(221, 67, 133, 0.5);
+}
+
+.leftside {
+    display: block
+}
+
+.rightside {
+    display: block
+}
+
+.linkpair {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rounddiv {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+
+    width: 250px;
+    height: 50px;
+    outline: 2px solid rgba(240, 240, 240, .35);
+    background-color: rgba(24, 24, 24, 0.7654412106639531);
+    display: table;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    -o-transition: .33s;
+    -ms-transition: .33s;
+    -moz-transition: .33s;
+    -webkit-transition: .33s;
+    transition: .33s;   
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    position: relative;
+}
+
+.rounddiv:hover {
+    background-color: rgba(48, 48, 48, 0.7654412106639531);
+}
+
+.rounddiv:hover svg {
+    fill: rgb(221, 67, 133)
+}
+
+
+.rounddiv:hover p {
+     color: rgb(221, 67, 133)
+}
+
+.rounddiv svg {
+    -o-transition: .33s;
+    -ms-transition: .33s;
+    -moz-transition: .33s;
+    -webkit-transition: .33s;
+    transition: .33s; 
+}
+
+.rounddiv p {
+    -o-transition: .33s;
+    -ms-transition: .33s;
+    -moz-transition: .33s;
+    -webkit-transition: .33s;
+    transition: .33s; 
+}
+
+.buttontext {
+    font-size: 24px;
+    color: rgb(240, 240, 240);
+    
+    text-align: center;
+    text-align:center; 
+    float: center;
+    vertical-align: middle;
+    display: table-cell;
+
+    -o-transition: .33s;
+    -ms-transition: .33s;
+    -moz-transition: .33s;
+    -webkit-transition: .33s;
+    transition: .33s; 
+    
+}
+
+.white {
+    fill: #fff
+}
+
+svg {
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    -o-transition: .33s;
+    -ms-transition: .33s;
+    -moz-transition: .33s;
+    -webkit-transition: .33s;
+    transition: .33s; 
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+}
